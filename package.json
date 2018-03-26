@@ -106,10 +106,7 @@
     "webpack-node-externals": "^1.6.0"
   },
   "homepage": "https://github.com/rabidpug/todo-app#readme",
-  "keywords": [
-    "react",
-    "boilerplate"
-  ],
+  "keywords": ["react", "todo", "example"],
   "license": "ISC",
   "main": "index.js",
   "name": "todo-app",
@@ -117,11 +114,13 @@
   "scripts": {
     "coverage": "jest --coverage",
     "build": "npm-run-all clean build:*",
-    "build:client": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.client.js --mode production --progress",
+    "build:client":
+      "cross-env NODE_ENV=production webpack --config webpack/webpack.config.client.js --mode production --progress",
     "build:server": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.server.js --mode production",
     "dev": "npm-run-all clean dev:* --parallel",
     "start": "node dist/server",
-    "dev:server": "cross-env NODE_ENV=development  webpack --config webpack/webpack.config.server.js --mode development",
+    "dev:server":
+      "cross-env NODE_ENV=development  webpack --config webpack/webpack.config.server.js --mode development",
     "prod": "heroku local",
     "clean": "rimraf ./dist",
     "dev:cssflow": "css-modules-flow-types src -e scss --watch",

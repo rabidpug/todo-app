@@ -1,11 +1,11 @@
 # React BoilerPlate
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)
-[![Build Status](https://img.shields.io/travis/rabidpug/react-bp.svg?style=flat-square)](https://travis-ci.org/rabidpug/react-bp)
-[![Coverage Status](https://img.shields.io/coveralls/rabidpug/react-bp.svg?style=flat-square)](https://coveralls.io/github/rabidpug/react-bp?branch=master)
+[![Build Status](https://img.shields.io/travis/rabidpug/todo-app.svg?style=flat-square)](https://travis-ci.org/rabidpug/todo-app)
+[![Coverage Status](https://img.shields.io/coveralls/rabidpug/todo-app.svg?style=flat-square)](https://coveralls.io/github/rabidpug/todo-app?branch=master)
 ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg)
 ![license](https://img.shields.io/github/license/mashape/apistatus.svg)
-[![Heroku Staging](https://heroku-badge.herokuapp.com/?app=react-bp-staging)](https://react-bp-staging.herokuapp.com/)
+[![Heroku Staging](https://heroku-badge.herokuapp.com/?app=todo-app-staging)](https://todo-app-staging.herokuapp.com/)
 
 * [Folder Structure](#folder-structure)
 * [Libraries](#libraries)
